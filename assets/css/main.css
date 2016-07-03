@@ -1566,15 +1566,16 @@
 		font-weight: normal;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		color: #89D0ED;
-		display: block;
+		color: #AD6A6C;
+		list-style: none;
+		display: inline-block;
 		font-size: 1.2em;
-		padding-left: 0px;
 
 	}
 	ul.feature-icon li{
-		color:#000000;
 		padding-left: 0px;
+		position: relative;
+		vertical-align: top;
 	}
 	.icon {
 		text-decoration: none;
@@ -1597,7 +1598,7 @@
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #4D2923;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
