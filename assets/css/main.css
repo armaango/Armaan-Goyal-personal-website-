@@ -1,5 +1,6 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+
 
 /*
 	Miniport by HTML5 UP
@@ -1559,7 +1560,21 @@
 	}
 
 /* Icons */
+	ul.feature-icon{
+		text-decoration: none;
+		font-family: FontAwesome;
+		font-weight: normal;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		color: #89D0ED;
+		display: block;
+		padding-left: 0px;
 
+	}
+	ul.feature-icon li{
+		color:#000000;
+		padding-left: 0px;
+	}
 	.icon {
 		text-decoration: none;
 	}
@@ -1815,9 +1830,9 @@
 
 				.box.style2 .image {
 					position: relative;
-					left: 2em;
-					top: 2em;
-					margin: -4em 0 4em -4em;
+					left: 2px;
+					top: 2px;
+					margin: 2em 2em 2em 2em;
 					width: auto;
 				}
 
