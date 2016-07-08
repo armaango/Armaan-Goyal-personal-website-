@@ -1607,6 +1607,9 @@
 			.icon.featured:before {
 				font-size: 6em;
 			}
+			.icon.resume{
+				font-size: 2.25em;
+			}
 
 /* Wrappers */
 
